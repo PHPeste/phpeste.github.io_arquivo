@@ -102,6 +102,7 @@ nav .date{float: right; font-size: 1.7em; color:#F2CAA7;}
 .form input[type=text]:focus,.form input[type=email]:focus,.form textarea:focus{border-color:#aaa;outline:0;}
 .partners{background:#593018;}
 .partners h2{color:#F2CAA7;}
+.video{float: left; margin-right: 30px;}
 
 @media only screen and (max-width:480px){.speaker-photo .photo{box-shadow:0 0 0 3px rgba(0, 0, 0, 0.07);} .speech-title{font-weight:bolder;} .speech-time{color:#2b2b2b;background:transparent;font-weight:bolder;} .github-link{display:none;}
 }
