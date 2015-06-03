@@ -22,7 +22,13 @@
                 <!-- <li class="nav-item"><a href="#sponsors" title="Sponsors" class="nav-link">Patrocinadores</a></li> -->
                 <li class="nav-item"><a href="http://benfeitoria.com/phpeste" title="Patrocinadores" class="nav-link">Patrocinadores</a></li>
                 <li class="nav-item"><a href="#partners" title="Partners" class="nav-link">Parceiros</a></li>
-                <li class="nav-item date">03 e 04 de outubro, João Pessoa, Brasil</li>
+                <li class="nav-item date">
+                    03 e 04 de outubro, João Pessoa, Brasil
+                    <ul class="translation-links">
+                        <li><a href="#" class="spanish" data-lang="Spanish">Español</a></li>
+                        <li><a href="#" class="english" data-lang="English">English</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
 
@@ -35,11 +41,6 @@
                         <img src="img/phpeste-claro.png" alt="PHPESTE Identidade visual">
                     </h1>
                 </a>
-<!--                 <h2 class="tagline">&nbsp;</h2>
-                <div class="call-action-area">
-                    <span class="price">&nbsp;</span>
-                    <a href="http://eventick.com.br/" class="call-action-link" title="Register now!">Register now!</a>
-                </div> -->
             </div>
         </header>
 
@@ -210,5 +211,29 @@
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="assets/map.js"></script>
     <script src="assets/main.js"></script>
+    <!-- Code provided by Google -->
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'pt-BR', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+      }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+
+    <!-- Flag click handler -->
+    <script type="text/javascript">
+        $('.translation-links a').click(function() {
+          var lang = $(this).data('lang');
+          var $frame = $('.goog-te-menu-frame:first');
+          
+          if (!$frame.size()) {
+            alert("Error: Could not find Google translate frame.");
+            return false;
+          }
+          
+          $frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click();
+          return false;
+        });
+    </script>
 </body>
 </html>
