@@ -75,11 +75,8 @@ nav{background:#260B01;}
 nav .date{float: right; font-size: 1.7em; color:#F2CAA7;}
 .nav-link{color:#F2CAA7;}
 .nav-link:active,.nav-link:hover,.nav-link:focus,.nav-link.current{color:#fff;}
-.header {
-  text-align: center;
-  height: 472px;
-  background: url('/img/jp3.jpg');
-}
+.header {text-align: center; height: 472px; background: url('/img/jp2.jpg');}
+
 @media (max-width: 640px) {
   .header img {
     width: 100%;
