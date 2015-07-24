@@ -36,3 +36,22 @@
         }
     }).init();
 }(jQuery, window, document));
+
+
+$(document).ready(function(){
+    $.getJSON("https://graph.facebook.com/531697990310552/attending?access_token=1397133740555718|358ae752274cddfa67a8b770177c085b")
+        .done(function( json ) {
+            var vai = "";
+            $.each( json.data, function( i, item ) {
+
+                vai += '<a href="http://facebook.com/'+item.id+'" target="_blank"><img class="photo" src="https://graph.facebook.com/'+item.id+'/picture?type=square" alt="'+item.name+'" itemprop="image"></a>';
+                console.log(item);
+            });
+            $(".vai").html(vai);
+        })
+        .fail(function( jqxhr, textStatus, error ) {
+            var err = textStatus + ", " + error;
+            console.log( "Request Failed: " + err );
+        });
+
+});
