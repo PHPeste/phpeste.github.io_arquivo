@@ -31,7 +31,7 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
 .schedule-tbl td,.schedule-tbl th{position:relative;padding:20px 30px;font-size:1.4em;line-height:1.4em;text-align:left;}
 .schedule-tbl th{padding:5px 30px;color:#2b2b2b;font-size:2em;font-weight:bolder;}
 .schedule-tbl .speaker-photo{position:relative;width:40px;height:40px;float:left;margin-right:20px;}
-.schedule-tbl .schedule-time{text-align:center;}
+.schedule-tbl .schedule-time{text-align:center; width: 80px;}
 .schedule-slot{width:250px;font-size:16px;}
 .speakers-company{display:block;font-size:12px;}
 .sponsor-item,.partner-item{display:inline-block;margin:0 30px 30px 0;}
