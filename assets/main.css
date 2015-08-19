@@ -18,7 +18,7 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
 .call-action-area .price{font-size:4em;vertical-align:center;margin-right:20px;}
 .call-action-area .call-action-link,.btn{position:relative;top:-5px;cursor:pointer;display:inline-block;padding:15px 30px;font-size:2em;line-height:1em;vertical-align:center;letter-spacing:-0.02em;-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-ms-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
 .call-action-area .call-action-link:hover,.call-action-area .call-action-link:focus,.btn:hover,.btn:focus{top:0;}
-.about{padding:19px;margin:0 -20px 0;}
+.about{padding:19px;}
 .speakers-item{position:relative;min-height:150px;padding-left:180px;margin-bottom:30px;border-bottom:1px dashed #e7e7e7;}
 .speakers-item:last-child{border:none;}
 .speaker-photo{position:absolute;top:0;left:0;display:block;width:120px;height:120px;}
