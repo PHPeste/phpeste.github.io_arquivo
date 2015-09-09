@@ -3,7 +3,7 @@
 .clear{clear:both;}
 .wrapper{margin:0 auto;width:960px;position:relative;}
 .content{padding-bottom:50px  ;}
-.content section{padding-top:50px;}
+.content section{padding-top:50px;box-shadow: 1px 1px 5px #000;}
 h2,h3,h4{font-size:5em;font-weight: 700;margin-bottom:.4em;letter-spacing:-0.02em;}
 h3{font-size:4em;}
 h4{font-size:3em;}
@@ -31,7 +31,7 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
 .schedule-tbl td,.schedule-tbl th{position:relative;padding:20px 30px;font-size:1.4em;line-height:1.4em;text-align:left;}
 .schedule-tbl th{padding:5px 30px;color:#2b2b2b;font-size:2em;font-weight:bolder;}
 .schedule-tbl .speaker-photo{position:relative;width:40px;height:40px;float:left;margin-right:20px;}
-.schedule-tbl .schedule-time{text-align:center;}
+.schedule-tbl .schedule-time{text-align: left;}
 .schedule-slot{width:250px;font-size:16px;}
 .speakers-company{display:block;font-size:12px;}
 .sponsor-item,.partner-item{display:inline-block;margin:0 30px 30px 0;}
@@ -73,11 +73,11 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
 html{background:#F2CAA7;font:normal normal 10px/1.2em helvetica,arial,sans-serif;color:#260B01;}
 h1,h2,h3,h4,h5,h6{color:#260B01;}
 
-nav{background:#260B01;}
-nav .date{float: right; font-size: 1.7em; color:#F2CAA7;}
-.nav-link{color:#F2CAA7;}
+nav{background:#260B01;background-image: url("../img/bg.png");/* color: #593018 !important; */box-shadow: 1px 1px 5px #000;}
+nav .date{float: right; font-size: 1.7em; color: #FFFFFF;}
+.nav-link{color: #FFFFFF;}
 .nav-link:active,.nav-link:hover,.nav-link:focus,.nav-link.current{color:#fff;}
-.header {text-align: center; height: 472px; background: url('../img/jp2.jpg');}
+.header {text-align: center; height: 490px; background: url('../img/jp3.jpg');/* padding-top: 50px; */background-size: cover;/* background-attachment: fixed; */}
 
 @media (max-width: 640px) {
   .header img {
@@ -91,31 +91,31 @@ nav .date{float: right; font-size: 1.7em; color:#F2CAA7;}
 .logo-link,.tagline,.call-action-area .price{color:#fff;text-shadow:1px 2px 1px rgba(0, 0, 0, 0.8);}
 .tagline{font-weight:normal;}
 .call-action-area .price{color:#fddd52;}
-.call-action-area .call-action-link,.btn{background-color:#fddd52;background-image:-moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);background-image:-webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);filter:progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');background-image:linear-gradient(top, #fddd52 30%, #f0a303 150%);color:#2b2b2b;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.4),inset 0 -2px 3px 0 #cc7f0a,inset 0 1px 0 0 #fff9b1;border-radius:40px;}
+.call-action-area .call-action-link,.btn{background-color:#fddd52;background-image:-moz-linear-gradient(top, #fddd52 30%, #f0a303 150%);background-image:-webkit-linear-gradient(top, #fddd52 30%, #f0a303 150%);filter:progid:dximagetransform.microsoft.gradient(startColorstr='#fddd52', endColorstr='#f0a303');background-image:linear-gradient(top, #fddd52 30%, #f0a303 150%);color:#2b2b2b;text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.4),inset 0 -2px 3px 0 #cc7f0a,inset 0 1px 0 0 #fff9b1;border-radius: 5px;}
 .github-link{position:fixed;top:0;right:0;z-index:11;}
 .github-link img{border:0;}
 .content a{color:#593018;}
 .content a:hover,.content a:focus{color:#fddd52;text-decoration:underline;}
-.about{background:#593018; color:#F2CAA7;}
+.about{background: rgb(94, 50, 25); color: #FFFFFF;box-shadow: none !important;}
 .about h2{color:#F2CAA7;}
-.location{/* padding-bottom: 40px; */ color: #8C442A;}
+.location{/* padding-bottom: 40px; */ color: #8C442A;background-color: #F0EDE5;}
 .location-area{background:#e7e7e7;border:1px solid #ccc;border-radius:4px;height:300px;}
-.speakers{background:#D99066;}
+.speakers{background:#D99066;background: url("../img/bg3.png") #D99066 repeat;/* background-size: cover; */background-attachment: fixed;}
 .speaker-photo .photo{border-radius:50%;box-shadow:0 0 0 8px rgba(0, 0, 0, 0.07);-webkit-transition:all 0.3s ease-out;-moz-transition:all 0.3s ease-out;-ms-transition:all 0.3s ease-out;-o-transition:all 0.3s ease-out;transition:all 0.3s ease-out;}
 .speakers-item:hover .speaker-photo .photo{box-shadow:0 0 0 8px rgba(0, 0, 0, 0.3);}
 .speech-time{color:#fff;background:#2b2b2b;border-radius:8px;}
-.schedule{background:#8C442A; padding-bottom: 40px;color: #F2CAA7;}
-.schedule .section-title, .speakers-name {color: #F2CAA7;}
+.schedule{background: #4B2815; padding-bottom: 40px;color: #F2CAA7;}
+.schedule .section-title, .speakers-name {color: #F2CAA7;border-bottom: 1px solid rgba(242, 202, 167, 0.19);}
 .schedule a {color: #C4A88F;}
-.schedule-tbl{background:#fff;border:1px solid #ccc;border-radius:4px;box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.15);}
-.schedule-tbl table{background:#fff;}
-.schedule-tbl td,.schedule-tbl th{border-bottom:1px solid #e7e7e7;}
-.schedule-tbl tbody tr:nth-child(2n+1){background:#f6f6f6;}
+.schedule-tbl{/* background: rgb(86, 49, 26); *//* border:1px solid #ccc; */border-radius:4px;box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.15);}
+.schedule-tbl table{background: rgb(230, 172, 127);}
+.schedule-tbl td,.schedule-tbl th{/* border-bottom:1px solid #e7e7e7; */}
+.schedule-tbl tbody tr:nth-child(2n+1){background: rgb(245, 191, 149);}
 .schedule-tbl th{color:#2b2b2b;}
 .schedule-tbl .speaker-photo .photo{box-shadow:0 0 0 1px rgba(0, 0, 0, 0.3);}
 .speakers-company{color:#999;}
 .schedule-slot{color:#2b2b2b;}
-.schedule-tbl tbody tr:hover{background:#fffde1;}
+.schedule-tbl tbody tr:hover{background: #F2CAA7;}
 .schedule-coffee,.schedule-closing,.schedule-lunch,.schedule-other{color:#214f87;}
 .sponsors{}
 .sponsor-link,.partner-link{background:#fff;border:1px solid #ccc;box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.15);}
@@ -150,4 +150,16 @@ a.call-action-link:hover{color: #260B01;}
     width: 100%;
     text-align: center;
     /* padding: 0px 50px; */
+}
+
+section#vai {
+    background: #000 url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/pink_rice.png");
+}
+
+section#schedule {
+    background-image: url("../img/go.jpg");
+}
+
+section#vai {
+    color: #4C2D18!important;
 }
