@@ -83,6 +83,11 @@ nav .date{float: right; font-size: 1.7em; color: #FFFFFF;}
   .header img {
     width: 100%;
   }
+  table, thead, tbody, th, td, tr {display: block;}
+  thead tr {position: absolute;top: -9999px;left: -9999px;}
+  tr { border: 1px solid #ccc; }
+  td { border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%;}
+  .schedule-tbl .schedule-time, .schedule-tbl .schedule-slot{width:auto;}
 }
 .logo-link {
   display: block;
