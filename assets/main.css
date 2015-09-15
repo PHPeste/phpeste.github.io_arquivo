@@ -35,8 +35,9 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
 .schedule-slot{width:250px;font-size:16px;}
 .speakers-company{display:block;font-size:12px;}
 .sponsor-item,.partner-item{display:inline-block;margin:0 30px 30px 0;}
-.sponsor-link,.partner-link{display:block;width:150px;height:150px;text-align:center;vertical-align:middle;line-height:150px;}
-.partner-link.diamond{width: 450px;}
+.sponsor-link,.partner-link{display:block;width:150px;text-align:center;vertical-align:middle;line-height:150px;}
+.partner-link.diamond{width: 450px; height:auto;}
+.partner-link.gold{width: 280px; height:auto;}
 .partner-link.fold{width: 350px;}
 .form label{font-size:16px;display:block;margin-bottom:.5em;}
 .control-group{height:auto;clear:both;margin-bottom:20px;}
@@ -58,6 +59,7 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
 @media only screen and (max-width:480px){
   nav{display:none;} .header{padding:20px 0;} .logo-name{font-size:4em;} .tagline{margin-bottom:15px;font-size:1.4em;} .call-action-area .price{font-size:2em;margin:0 0 15px;display:block;} .call-action-area .call-action-link,.btn{top:0;} h2,h3,h4{font-size:3em;} h3{font-size:2em;} h4{font-size:1.8em;} p{font-size:1.4em;} .content{padding:0;} .content section{padding-top:50px;} .speakers-item{min-height:70px;padding-left:70px;} .speaker-photo{width:50px;height:50px;} .speech-title{padding-top:0;font-size:16px;margin-bottom:.3em;} .speech-time{font-size:16px;padding:0;} .speakers-bio{display:none;}
   .partner-link.diamond{width: 220px;}
+  .partner-link.gold{width: 180px;}
   .video iframe{width: 280px!important;}
 }
 
@@ -67,6 +69,7 @@ nav{padding:15px 0;position:fixed;width:100%;z-index:10;}
   .sponsor-link,.partner-link{width:115px;height:115px;line-height:115px;}
   nav .date{margin-top: 10px;}
   .partner-link.diamond{width: 140px;}
+  .partner-link.gold{width: 120px;}
   .video iframe{width: 250px!important;}
 }
 
