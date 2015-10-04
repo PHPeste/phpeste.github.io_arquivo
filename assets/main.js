@@ -53,5 +53,7 @@ $(document).ready(function(){
             var err = textStatus + ", " + error;
             console.log( "Request Failed: " + err );
         });
-
+    $('#countdown').countdown('2015/10/03 09:00:00', function(event) {
+        $(this).html(event.strftime('%D dias <span>%H:%M:%S</span>'));
+    });
 });
